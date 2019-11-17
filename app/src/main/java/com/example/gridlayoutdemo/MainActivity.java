@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     {
         int id = view.getId();
 
-        //  Fetch the name of id here
+        //  Fetch the name of id here which would be the id name of button tapped
         String ourId = view.getResources().getResourceEntryName(id);
 
         //  Display message on log
